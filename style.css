@@ -23,6 +23,8 @@ header {
     justify-content: center;
 }
 
+.sub-nav {}
+
 .nav-bar {
     justify-content: space-between;
     display: flex;
@@ -46,15 +48,6 @@ header {
 .nav-bar ul li a {
     color: whitesmoke;
     font-size: 30px;
-}
-
-.nav-bar ul li a:hover {
-    padding: 9px;
-    background: red;
-    border-radius: 30px;
-    color: whitesmoke;
-    display: block;
-    cursor: pointer;
 }
 
 .header-content {
@@ -109,6 +102,13 @@ header {
         height: 0;
         transition: 0.3s;
     }
+}
+
+.activity {
+    padding: 9px;
+    background: red;
+    border-radius: 30px;
+    color: whitesmoke;
 }
 
 .hidden {
@@ -213,33 +213,4 @@ row {
 .login {
     align-items: center;
     height: 100vh;
-}
-
-.sub-nav {
-    height: 0;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    background: #fefefe;
-    transition: 0.2s;
-    overflow: hidden;
-}
-
-.sub-nav ul {
-    display: block;
-    width: fit-content;
-    margin: 80px auto 0 auto;
-    text-align: center;
-    transition: 0.5;
-    opacity: 0;
-}
-
-.sub-nav.active ul {
-    opacity: 1;
-}
-
-.sub-nav ul li a {
-    margin-bottom: 12px;
 }

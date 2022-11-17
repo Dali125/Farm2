@@ -6,6 +6,19 @@
     font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.ad2 {
+    background: url('/images/user-management.gif');
+    height: 80vh;
+    width: 40vw;
+    background-size: cover;
+    border-radius: 30px;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 2;
+    -webkit-filter: brightness(70%);
+}
+
 .box {
     height: 50px;
     width: 100px;
@@ -38,7 +51,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 150vh;
+    min-height: 90vh;
 }
 
 .hidden {
@@ -113,9 +126,33 @@ header {
     header {
         padding: 0 30px;
     }
+    .ad2 {
+        background: url('/images/user-management.gif');
+        height: 40vh;
+        width: 40vw;
+        background-size: cover;
+        border-radius: 30px;
+        grid-row: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 2;
+        -webkit-filter: brightness(70%);
+    }
 }
 
 @media only screen and (max-width: 900px) {
+    .ad2 {
+        background: url('/images/user-management.gif');
+        height: 30vh;
+        width: 40vw;
+        background-size: cover;
+        border-radius: 30px;
+        grid-row: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 2;
+        -webkit-filter: brightness(70%);
+    }
     .hamburger {
         display: block;
         cursor: pointer;
@@ -187,4 +224,72 @@ footer {
 
 h1 {
     color: #FFFFFF;
+    font-size: 34;
+}
+
+.child {
+    float: left;
+    width: 50%;
+    display: flex;
+    margin-top: -10;
+}
+
+.child:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.inText {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vw;
+    font-size: 4vmin;
+}
+
+.inText2 {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vw;
+}
+
+.ad1 {
+    background: url('/images/pexels-livier-garcia-1459331.jpg');
+    height: 40vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 30px;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 2;
+    -webkit-filter: brightness(70%);
+}
+
+.ad3 {
+    background: url('/images/pexels-livier-garcia-1459331.jpg');
+    height: 40vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 30px;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 2;
+    -webkit-filter: brightness(70%);
+}
+
+.ad1:hover {
+    -webkit-filter: brightness(100%);
+}
+
+.ad2:hover {
+    -webkit-filter: brightness(100%);
+}
+
+.ad3:hover {
+    -webkit-filter: brightness(100%);
 }

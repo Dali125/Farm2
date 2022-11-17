@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 
-<body class="myBody">
+<body class="#">
 
     <h1>Enter Data Here</h1>
     <div class="image-preview-container">
@@ -17,11 +17,32 @@
             <img id="preview-selected-image" />
 
         </div>
-        <p id="myId"> Date</p>
-        <label for="file-upload">Upload Image</label>
-        <input type="file" id="file-upload" accept="image/*" onchange="previewImage(event);" />
 
+        <form>
+            <strong>  <p>Date</p>  </strong>
+            <p id="myId"> Date</p>
+
+            <div>
+                <input type="text" class="text-field" />
+
+            </div>
+            <label for="file-upload">Upload Image</label>
+
+            <input type="file" id="file-upload" accept="image/*" onchange="previewImage(event);" />
+
+            <br>
+
+
+
+
+            <div>
+                <button type="submit" class="submitMe"> Submit Form</button>
+
+            </div>
+
+        </form>
     </div>
+
 
 </body>
 

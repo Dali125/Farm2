@@ -23,6 +23,10 @@ h1 {
     display: none;
 }
 
+.image-preview-container.text-field {
+    display: contents;
+}
+
 .image-preview-container label {
     display: block;
     width: 45%;
@@ -44,6 +48,18 @@ h1 {
 .myBody {
     background-color: #000;
     color: #fff;
+}
+
+.submitMe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.text-field {
+    margin-top: 11px;
+    border-radius: 20px;
+    background-color: hsla (0, 0%, 90.7%, 0.47);
 }
 
 view rawimage_preview_using_javascript.css hosted with ❤ by GitHub

@@ -27,5 +27,6 @@
             "username": "root",
             "name": "Farmconn"
         }
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

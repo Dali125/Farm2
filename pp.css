@@ -293,3 +293,40 @@ h1 {
 .ad3:hover {
     -webkit-filter: brightness(100%);
 }
+
+.mnm {
+    color: #fff;
+}
+
+table td {
+    color: #fefefe;
+    padding: 10px;
+    border: thin solid #d4d4d4;
+    width: 18%;
+    text-align: center;
+    background-color: #000000;
+}
+
+table select:focus {
+    outline: none;
+}
+
+table select {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: thin solid #d4d4d4;
+    background-color: transparent;
+}
+
+table a:active {
+    background-color: #ccf4d6;
+    color: green;
+}
+
+table th {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    /* background-color: #fff; */
+    border: thin solid #d4d4d4;
+}

@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head class="flex">
+    <script defer src="/js/getusers.js" type="module"></script>
 
     <link rel="stylesheet" href="/pp.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
 
 
@@ -48,20 +52,39 @@
             </ul>
         </nav>
     </header>
+
+
+    <table id="excelDataTable" border="1">
+    </table>
+
+
+
+    <h1>User Management</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>USER-ROLE</th>
+
+            </tr>
+        </thead>
+        <tbody id="data-output">
+            <!-- Prodcuts from javascript file in here. -->
+        </tbody>
+    </table>
+
+
+
+    <br>
+    <br>
+    <button>
+        <a href="/pages/AddUsers.html">
+            ADD USERS
+        </a>
+    </button>
+
 </body>
-
-<h1>User Management</h1>
-
-<div class="Norms isDataAvailable">
-    <p>No Users Found,Add one now</p>
-    <a href="/pages/AddUsers.html"> <img src="/images/Untitled design.gif" </a>
-
-
-
-        <div class="isDataAvailable">
-
-        </div>
-</div>
 
 
 </html>

@@ -60,38 +60,43 @@
 
     <div class="center">
 
-        <form>
+        <form action="" id="form">
 
 
 
             <h1>
-                First Name
+                User Name
             </h1>
-            <input type="text" required>
-
-            <br>
-            <h1>
-                Last Name
-            </h1>
-            <input type="text" required>
+            <input name="name" type="text" required id="Fname">
 
             <br>
 
 
-            <label for="cars">Choose a Role:</label>
+            <br>
+
+
+            <h1>Choose a Role:</h1>
 
             <br>
-            <select name="cars" id="cars">
-  <option value="volvo">Data Collector</option>
-  <option value="saab">Stakeholder</option>
+            <select name="user_role" id="roles">
+                <option>Data Collector</option>
+               <option >Stakeholder</option>
+               <option >Stakeholder</option>
+               <option> Admin</option>
   
-</select>
+            </select>
             <br>
 
             <br>
+            <h1>
+                Password
+            </h1>
+            <input name="password" type="password" required id="Pword">
+            <br>
 
-            <input type="submit" id="submiter">Submit</input>
-            </ul>
+            <br> "
+            <button type="submit" name="submit" id="submiter">Submit</button>
+
 
 
 

@@ -5,7 +5,6 @@ var object = []
 fetch('http://localhost:8080/users/getUsers').then((data) => {
 
 
-
     object = data.json()
     return object
 }).then((completedata) => {
